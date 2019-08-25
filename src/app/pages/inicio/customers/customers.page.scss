@@ -1,0 +1,90 @@
+.content{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.userBanner {
+  background-color: #8A79F7;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.pagename{
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 5px 10px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.date {
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+
+.centered{
+  align-items: center;
+  justify-content: center;
+}
+
+ion-card{
+  font-family: 'Montserrat', sans-serif !important;
+  padding-bottom: 5px;
+  border-top: 5px solid #00DCB8;
+}
+
+ion-list{
+  padding: 0px;
+}
+
+.input-wrapper{
+  height: 30px;
+}
+.card1-h{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #B1B9C1;
+}
+
+.card1-t{
+  color: #8A79F7 !important;
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.card1-b{
+  color: #B1B9C1 !important;
+  font-size: 15px;
+}
+
+.card2-h{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #B1B9C1;
+}
+
+.card2-t{
+  color: #00C2A2 !important;
+  font-size: 14px;
+}
+
+.card2-b{
+  color: #B1B9C1 !important;
+  font-size: 15px;
+}
+
+.card2-i{
+  font-size: 13px;
+  margin: 0px;
+  color: #1F3040;
+}
+
+ion-card-title{
+  font-size: 30px;
+}
+
+ion-card-content{
+  padding-bottom: 0px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #1F3040;
+}
