@@ -17,12 +17,7 @@ export class InicioPage implements OnInit {
   once=true;
   public pages=
   [
-    {
-      title:'start',
-      url:'start',
-      icon:'home',
-      class:'change-color'
-    },
+    
     {
       title:'product',
       url:'product',
@@ -30,10 +25,10 @@ export class InicioPage implements OnInit {
       class:''
     },
     {
-      title:'historic',
-      url:'historic',
-      icon:'md-analytics',
-      class:''
+      title:'start',
+      url:'start',
+      icon:'home',
+      class:'change-color'
     },
     {
       title:'customers',

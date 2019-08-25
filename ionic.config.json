@@ -1,5 +1,7 @@
 {
   "name": "konfio",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

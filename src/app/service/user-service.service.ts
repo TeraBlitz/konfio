@@ -10,6 +10,7 @@ export class UserServiceService {
     public loginEndpoint = 'https://us-central1-hk2019-250822.cloudfunctions.net/function-1';
     public logoutEndpoint = '/usuarios/logout';
     public userName: any;
+    public send: JSON;
 
   constructor(
     public http: HttpClient,
@@ -18,7 +19,7 @@ export class UserServiceService {
 
   login(username: string, password: string)
   {
-    let user = { username, password };
+    let user = { "username":username, "password":password };
 
     console.log(user);
     var req = new XMLHttpRequest()

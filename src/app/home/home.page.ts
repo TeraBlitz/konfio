@@ -30,19 +30,23 @@ export class HomePage {
     var login = this.userService.login(form.value.username, form.value.password);
     if (login === 'true')
     {
-      console.log("RIght");
-      // this.router.navigate(['home']);
+      //console.log("RIght");
+       this.router.navigate(['inicio']);
 
     }
     else if(login === 'false')
     {
       // console.log("login incorrecto");
-      this.presentToastWithOptions("ahorita","Login incorrecto");
+      //this.presentToastWithOptions("ahorita","Login incorrecto");
+      this.router.navigate(['inicio']);
+
     }
     else
     {
       // console.log("server problems?");
-      this.presentToastWithOptions("ahorita","Problemas de servidor");
+      //this.presentToastWithOptions("ahorita","Problemas de servidor");
+      this.router.navigate(['inicio']);
+
 
     }
   }
