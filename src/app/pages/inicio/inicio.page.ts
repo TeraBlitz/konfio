@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChildren,ViewChild } from '@angular/core';
 import { IonButton, IonIcon } from '@ionic/angular';
 import { Button } from 'protractor';
 
@@ -10,7 +10,8 @@ import { Button } from 'protractor';
 
 // @ViewChild(change-color, {static: false});
 export class InicioPage implements OnInit {
-  @ViewChild(IonIcon,{static:false}) active :any;
+  @ViewChildren(IonIcon) active :any;
+  @ViewChild(IonIcon,{static:false}) activex :any;
 
   constructor() { }
 
@@ -48,14 +49,15 @@ export class InicioPage implements OnInit {
     console.log("button",this.active);
     if(this.once)
     {
-      this.active.el.className="md hydrated";
+      this.activex=this.active._results[1]
+      this.activex.el.className="md hydrated";
       this.once=false;
     }
     else{
-      this.active.className="md hydrated";
+      this.activex.className="md hydrated";
     }
     event.target.className+=" change-color";
-    this.active=event.target;
+    this.activex=event.target;
   }
   
 
