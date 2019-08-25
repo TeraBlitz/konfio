@@ -1,41 +1,73 @@
+.content{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+ion-card{
+  font-family: 'Montserrat', sans-serif !important;
+  padding-bottom: 5px;
+}
+
+ion-card-header{
+  padding-bottom: 5px;
+}
+
+ion-card-title{
+  font-size: 30px;
+}
+
+ion-card-content{
+  padding-bottom: 0px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #1F3040;
+}
+
 .userBanner {
-    background-color: #8A79F7;
-    display: flex;
+  background-color: #8A79F7;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.centered{
+  align-items: center;
+  justify-content: center;
 }
 
 .avatar{
 }
 
 .username{
-    color: #FFFFFF;
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 5px 10px;
+  padding-left: 20px;
+  font-weight: bold;
 }
 
 .date {
-    color: #FFFFFF;
-    font-size: 16px;
-    padding-left: 35px;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-bottom: 10px;
 }
 
 .ingreso {
-    border-top: 5px solid #00C2A2;
-    text-align: center;
+  border-top: 5px solid #00C2A2;
+  text-align: center;
 }
 
 .egreso {
-    border-top: 5px solid #FF4949;
-    text-align: center;
+  border-top: 5px solid #FF4949;
+  text-align: center;
 }
 
 .neutro {
-    border-top: 5px solid #0080E8;
-    text-align: center;
+  border-top: 5px solid #0080E8;
+  text-align: center;
+  width: 165px;
 }
 
 .facturas {
-    border-top: 5px solid #8A79F7;
-    text-align: center;
+  border-top: 5px solid #8A79F7;
+  text-align: center;
 }

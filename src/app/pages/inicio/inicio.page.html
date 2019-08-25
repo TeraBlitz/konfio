@@ -1,14 +1,21 @@
 <ion-header >
-    <ion-toolbar>
-      <ion-title>
-        hola
-      </ion-title>
-    </ion-toolbar>
-  </ion-header>
-<ion-tabs tabsLayout="icon-start"> 
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button *ngFor="let p of pages" [tab]="p.url">
-        {{p.title}}
-      </ion-tab-button>
-    </ion-tab-bar>
+  <ion-toolbar>
+    <ion-title>
+      <ion-grid>
+        <ion-row class="appbanner">
+          <ion-thumbnail>
+            <ion-img src="assets\logo.png"></ion-img>
+          </ion-thumbnail>
+          <ion-label class="appname">Kompás</ion-label>
+        </ion-row>
+      </ion-grid>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-tabs tabsLayout="icon-start">
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button *ngFor="let p of pages" [tab]="p.url">
+      {{p.title}}
+    </ion-tab-button>
+  </ion-tab-bar>
 </ion-tabs>

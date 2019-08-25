@@ -1,9 +1,74 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap:400,900" rel="stylesheet">
 <ion-header>
   <ion-toolbar>
-    <ion-title>product</ion-title>
+    <ion-title>Product</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content class="content">
+  <ion-infinite-scroll>
+    <ion-grid>
+      <ion-col>
+        <ion-row class="userBanner" align-self-center justify-content-center>
+          <ion-col size="auto">
+            <ion-avatar class="avatar">
+              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+            </ion-avatar>
+          </ion-col>
+          <ion-col>
+            <ion-row class="pagename">
+              Productos
+            </ion-row>
+            <ion-row class="date">
+              Ago-2019
+            </ion-row>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-card class="ingreso">
+              <ion-card-header>
+                <ion-card-title>$80000</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                Ingresos
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card class="egreso">
+              <ion-card-header>
+                <ion-card-title>$60000</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                Egresos
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-card class="ingreso">
+              <ion-card-header>
+                <ion-card-title>$80000</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                Ingresos
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card class="egreso">
+              <ion-card-header>
+                <ion-card-title>$60000</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                Egresos
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-grid>
+  </ion-infinite-scroll>
 </ion-content>
