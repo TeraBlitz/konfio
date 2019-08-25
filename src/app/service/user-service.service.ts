@@ -25,6 +25,7 @@ export class UserServiceService {
     req.open('POST',this.loginEndpoint, false); 
     //req.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     //req.withCredentials = true;
+    console.log( JSON.stringify(user))
     req.send( JSON.stringify(user));
     console.log(req);
     if (req.status === 200)
