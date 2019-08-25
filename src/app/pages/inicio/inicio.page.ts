@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Routes } from '@angular/router';
 
 @Component({
   selector: 'app-inicio',
@@ -31,6 +30,7 @@ export class InicioPage implements OnInit {
     }
   ];
   ngOnInit() {
+    console.log("Start")
   }
 
 }

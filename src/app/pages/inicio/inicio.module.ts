@@ -9,20 +9,30 @@ import { InicioPage } from './inicio.page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'inicio',
     component: InicioPage,
     children:[
       {
         path:'start',
-        loadChildren:'./pages/inicio/start/start.module#StartPageModule'
+        loadChildren:'./start/start.module#StartPageModule'
       },
       {
         path:'product',
-        loadChildren:'./pages/inicio/product/product.module#ProductPageModule'
+        loadChildren:'./product/product.module#ProductPageModule'
+      },
+      {
+        path:'historic',
+        loadChildren:'./historic/historic.module#HistoricPageModule'
       }
     ]
+  },
+  {
+    path:'',
+    redirectTo:'inicio/start',
+    pathMatch: 'full'
   }
 ];
+
 
 @NgModule({
   imports: [
