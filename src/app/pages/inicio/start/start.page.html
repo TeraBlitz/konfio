@@ -1,4 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Start</ion-title>
+  </ion-toolbar>
+</ion-header>
+
 <ion-content>
-<ion-row></ion-row>
-<ion-row><ion</ion-row>
+    <ion-infinite-scroll>
+        <ion-grid>
+            <ion-col>
+                <ion-row class="userBanner">
+                    <ion-col size="auto">
+                        <ion-avatar class="avatar">
+                            <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+                        </ion-avatar>
+                    </ion-col>
+                    <ion-col>
+                        <ion-row class="username">
+                            Bienvenido Gustavo!
+                        </ion-row>
+                        <ion-row class="date">
+                            Ago-2019
+                        </ion-row>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                        <ion-card class="neutro"> <!--Deberia ser verde-->
+                            <ion-card-header>
+                                <ion-card-title>$20000</ion-card-title>
+                            </ion-card-header>
+                            <ion-card-content>
+                                Neto
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                        <ion-card class="ingreso">
+                            <ion-card-header>
+                                <ion-card-title>$80000</ion-card-title>
+                            </ion-card-header>
+                            <ion-card-content>
+                                Ingresos
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-col>
+                    <ion-col>
+                        <ion-card class="egreso">
+                            <ion-card-header>
+                                <ion-card-title>$60000</ion-card-title>
+                            </ion-card-header>
+                            <ion-card-content>
+                                Egresos
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                        <ion-card class="facturas">
+                            <ion-card-header>
+                                <ion-card-title># Facturas</ion-card-title>
+                            </ion-card-header>
+                            <ion-card-content>
+                                <ion-img src="https://www.meta-chart.com/assets/images/pie/pie_name_value.png"></ion-img>
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                        <ion-card class="facturas">
+                            <ion-card-header>
+                                <ion-card-title>Histórico</ion-card-title>
+                            </ion-card-header>
+                            <ion-card-content>
+                                <ion-img src="https://images.ctfassets.net/fevtq3bap7tj/2y10mCPvtOWioQSQWg6wim/abf8eedabc097da31b467ddf9c76b4cf/Screen_Shot_2018-10-12_at_11.28.47_AM.png"></ion-img>
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+        </ion-grid>
+    </ion-infinite-scroll>
 </ion-content>

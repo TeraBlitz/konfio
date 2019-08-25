@@ -1,0 +1,41 @@
+.userBanner {
+    background-color: #8A79F7;
+    display: flex;
+}
+
+.avatar{
+}
+
+.username{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+.date {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+.ingreso {
+    border-top: 5px solid #00C2A2;
+    text-align: center;
+}
+
+.egreso {
+    border-top: 5px solid #FF4949;
+    text-align: center;
+}
+
+.neutro {
+    border-top: 5px solid #0080E8;
+    text-align: center;
+}
+
+.facturas {
+    border-top: 5px solid #8A79F7;
+    text-align: center;
+}
