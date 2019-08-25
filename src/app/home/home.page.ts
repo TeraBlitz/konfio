@@ -25,8 +25,9 @@ export class HomePage {
 
   login(form)
   {
+    this.router.navigate(['inicio']);
     // console.log("hola esto es la form",form.value);
-
+/*
     var login = this.userService.login(form.value.username, form.value.password);
     if (login === 'true')
     {
@@ -48,7 +49,7 @@ export class HomePage {
       this.router.navigate(['inicio']);
 
 
-    }
+    }*/
   }
   ionViewWillEnter() {
     this.menuCtrl.enable(false);
