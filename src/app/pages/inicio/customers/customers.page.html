@@ -1,9 +1,124 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap:400,900" rel="stylesheet">
 <ion-header>
   <ion-toolbar>
-    <ion-title>customers</ion-title>
+    <ion-title>Customers</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="content">
+  <ion-infinite-scroll>
+    <ion-grid>
+      <ion-col>
+        <ion-row class="userBanner" align-self-center justify-content-center>
+          <ion-col size="auto">
+            <ion-avatar class="avatar">
+              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+            </ion-avatar>
+          </ion-col>
+          <ion-col>
+            <ion-row class="pagename">
+              Clientes/Proveedores
+            </ion-row>
+            <ion-row class="date">
+              Ago-2019
+            </ion-row>
+          </ion-col>
+        </ion-row>
 
+        <ion-row>
+          <ion-col>
+            <ion-card>
+              <ion-card-header class="card1-h">
+                <ion-thumbnail>
+                  <ion-img src="assets\logo.png"></ion-img>
+                </ion-thumbnail>
+                <ion-card-title class="card1-t">$130,000.00</ion-card-title>
+                <ion-label>Mejor Cliente</ion-label>
+              </ion-card-header>
+              <ion-card-content>
+                <ion-label>Ana Díaz</ion-label>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="6" justify-content-center align-items-center>
+            <ion-card>
+              <ion-card-header class="card2-h">
+                <ion-thumbnail>
+                  <ion-img src="assets\logo.png"></ion-img>
+                </ion-thumbnail>
+                <ion-card-title class="card2-t">$120,000.00</ion-card-title>
+              </ion-card-header>
+              <ion-card-content class="card2-b">
+                <ion-label>Ernesto Medina</ion-label>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6" justify-content-center align-items-center>
+            <ion-card>
+              <ion-card-header class="card2-h">
+                <ion-thumbnail>
+                  <ion-img src="assets\logo.png"></ion-img>
+                </ion-thumbnail>
+                <ion-card-title class="card2-t">$60,000.00</ion-card-title>
+              </ion-card-header>
+              <ion-card-content class="card2-b">
+                <ion-label>Gabriel Puente</ion-label>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title class="card2-t">Facturas de ventas más altas del mes</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                <ion-img src="https://images.ctfassets.net/fevtq3bap7tj/2y10mCPvtOWioQSQWg6wim/abf8eedabc097da31b467ddf9c76b4cf/Screen_Shot_2018-10-12_at_11.28.47_AM.png"></ion-img>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="6" justify-content-center align-items-center>
+            <ion-card>
+              <ion-card-header class="card2-h">
+                <ion-thumbnail>
+                  <ion-img src="assets\logo.png"></ion-img>
+                </ion-thumbnail>
+                <ion-card-title class="card2-t">Clientes en ascenso</ion-card-title>
+              </ion-card-header>
+              <ion-card-content class="card2-b">
+                <ion-list>
+                    <ion-icon name="arrow-dropright"></ion-icon><ion-label class="card2-i">J. Saenz - $45,000</ion-label><p></p>
+                    <ion-icon name="arrow-dropright"></ion-icon><ion-label class="card2-i">D. Cruz - $30,000</ion-label><p></p>
+                    <ion-icon name="arrow-dropright"></ion-icon><ion-label class="card2-i">G. Alva -$17,000</ion-label><p></p>
+                </ion-list>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="6" justify-content-center align-items-center>
+            <ion-card>
+              <ion-card-header class="card2-h">
+                <ion-thumbnail>
+                  <ion-img src="assets\logo.png"></ion-img>
+                </ion-thumbnail>
+                <ion-card-title class="card2-t">$5,000.00</ion-card-title>
+                <ion-label>Area de oportunidad</ion-label>
+              </ion-card-header>
+              <ion-card-content class="card2-b">
+                <ion-label>Andrea Soza</ion-label>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+
+      </ion-col>
+    </ion-grid>
+  </ion-infinite-scroll>
 </ion-content>
