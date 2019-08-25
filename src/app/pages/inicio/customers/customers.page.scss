@@ -38,46 +38,6 @@ ion-list{
   padding: 0px;
 }
 
-.input-wrapper{
-  height: 30px;
-}
-.card1-h{
-  padding-bottom: 5px;
-  border-bottom: 2px solid #B1B9C1;
-}
-
-.card1-t{
-  color: #8A79F7 !important;
-  font-weight: 900;
-  font-size: 23px;
-}
-
-.card1-b{
-  color: #B1B9C1 !important;
-  font-size: 15px;
-}
-
-.card2-h{
-  padding-bottom: 5px;
-  border-bottom: 2px solid #B1B9C1;
-}
-
-.card2-t{
-  color: #00C2A2 !important;
-  font-size: 14px;
-}
-
-.card2-b{
-  color: #B1B9C1 !important;
-  font-size: 15px;
-}
-
-.card2-i{
-  font-size: 13px;
-  margin: 0px;
-  color: #1F3040;
-}
-
 ion-card-title{
   font-size: 30px;
 }
@@ -87,4 +47,55 @@ ion-card-content{
   font-weight: 900;
   font-size: 18px;
   color: #1F3040;
+}
+
+.card-h{
+  border-bottom: 2px solid #B1B9C1;
+}
+
+
+.head-0{
+  font-weight: 900;
+  color: #5C5A92;
+  font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-1{
+  font-weight: 900;
+  color: #7264C9;
+  font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-2{
+  font-weight: 900;
+  color: #00C2A2;
+  font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lbl-0{
+  color:#1F3040;
+  font-weight: 900;
+  font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lbl-1{
+  color:#1F3040;
+  font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lbl-2{
+  color:#1F3040;
+  font-size: 13px;
+    align-items: center;
+    justify-content: center;
 }
