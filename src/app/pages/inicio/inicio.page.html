@@ -13,9 +13,9 @@
   </ion-toolbar>
 </ion-header>
 <ion-tabs tabsLayout="icon-start">
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button *ngFor="let p of pages" [tab]="p.url">
-      {{p.title}}
-    </ion-tab-button>
-  </ion-tab-bar>
+    <ion-tab-bar style="background-color: #EEECF9"   slot="bottom">
+      <ion-tab-button style="background-color: #B8AAE9" *ngFor="let p of pages" [tab]="p.url" (click)="onClick($event)">
+        <ion-icon style="color: #EEECF9" [name]="p.icon" [class]="p.class" ></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
 </ion-tabs>

@@ -14,7 +14,7 @@ const routes: Routes = [
     children:[
       {
         path:'start',
-        loadChildren:'./start/start.module#StartPageModule'
+        loadChildren:'./start/start.module#StartPageModule',
       },
       {
         path:'product',
@@ -23,6 +23,10 @@ const routes: Routes = [
       {
         path:'historic',
         loadChildren:'./historic/historic.module#HistoricPageModule'
+      },
+      {
+        path:'customers',
+        loadChildren:'./customers/customers.module#CustomersPageModule'
       }
     ]
   },
